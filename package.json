@@ -1,0 +1,42 @@
+{
+  "name": "@tclain/open-vercel-dashboard",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "next dev",
+    "build": "next build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tclain/open-vercel-dashboard.git"
+  },
+  "keywords": [],
+  "author": "tclain",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tclain/open-vercel-dashboard/issues"
+  },
+  "homepage": "https://github.com/tclain/open-vercel-dashboard#readme",
+  "dependencies": {
+    "@chakra-ui/react": "^1.7.2",
+    "@emotion/react": "^11.7.0",
+    "@emotion/styled": "^11.6.0",
+    "@types/react": "^17.0.37",
+    "@types/react-dom": "^17.0.11",
+    "@vercel/client": "^10.2.2",
+    "axios": "^0.24.0",
+    "framer-motion": "^4.1.17",
+    "lodash": "^4.17.21",
+    "next": "^12.0.4",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "serialize-error": "^9.0.0",
+    "swr": "^1.0.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.2"
+  }
+}
